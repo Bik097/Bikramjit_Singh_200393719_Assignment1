@@ -1,8 +1,23 @@
 ﻿doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/main.css')
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
-  body
-    block content
+    .jumbotron 
+        .container
+            head
+                .inline
+                    ul
+                        li
+                            a(href='/') Home
+                        li
+                            a(href='/projects') Projects
+                        li
+                            a(href='/services') Services
+                        li
+                            a(href='/about') About
+                        li
+                            a(href='/contact') Contact
+                title= title
+                link(rel='stylesheet', href='/stylesheets/main.css')
+                link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+        body
+            block content
+        

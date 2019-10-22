@@ -6,3 +6,11 @@
 a {
     color: #00B7FF;
 }
+
+li {
+    display:inline;
+    margin-right: 10px;
+    border: 2px;
+    border-color : black;
+    list-style: none;
+}
