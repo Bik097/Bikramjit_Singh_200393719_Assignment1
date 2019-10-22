@@ -31,12 +31,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="routes\projects.js" />
     <Compile Include="routes\about.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\projects.pug" />
     <Content Include="views\about.pug" />
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
