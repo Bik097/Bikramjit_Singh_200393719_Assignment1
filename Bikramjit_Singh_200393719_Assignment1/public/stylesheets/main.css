@@ -7,10 +7,14 @@ a {
     color: #00B7FF;
 }
 
-li {
-    display:inline;
-    margin-right: 10px;
+.straight {
+    display: inline;
     border: 2px;
-    border-color : black;
+    border-color: black;
+}
+
+.inline {
+    display:inline;
+    margin-right: 15px;
     list-style: none;
 }

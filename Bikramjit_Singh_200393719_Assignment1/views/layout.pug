@@ -3,18 +3,34 @@ html
     .jumbotron 
         .container
             head
-                .inline
+                .straight
                     ul
-                        li
-                            a(href='/') Home
-                        li
-                            a(href='/projects') Projects
-                        li
-                            a(href='/services') Services
-                        li
-                            a(href='/about') About
-                        li
-                            a(href='/contact') Contact
+                        nav.navbar.navbar-expand-lg.navbar-light.bg-light
+                              a.navbar-brand(href='/') Home
+                              button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                                span.navbar-toggler-icon
+  
+                              .collapse.navbar-collapse(id='navbarSupportedContent')
+                                ul.navbar-nav.mr-auto
+                                  li.nav-item.active
+                                    a.nav-link(href='/projects') Projects
+                                  li.nav-item
+                                    a.nav-link(href='/services') Services
+                                  li.nav-item
+                                    a.nav-link(href='/about') About
+                                  li.nav-item
+                                    a.nav-link(href='/contact') Contact
+                        .inline
+                            li
+                                a(href='/') Home
+                            li
+                                a(href='/projects') Projects
+                            li
+                                a(href='/services') Services
+                            li
+                                a(href='/about') About
+                            li
+                                a(href='/contact') Contact
                 title= title
                 link(rel='stylesheet', href='/stylesheets/main.css')
                 link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
